@@ -16,4 +16,8 @@ class Solver
 
     string.reverse
   end
+
+  def fizzbuzz(num)
+    'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
+  end
 end

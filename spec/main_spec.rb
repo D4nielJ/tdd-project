@@ -25,8 +25,6 @@ describe Solver do
   end
 
   it 'return a string fizzbuzz when n is divisible by 3 and 5 ' do
-    expect do
-      Solver.new.fizzbuzz(15)
-    end.to eql 'fizzbuzz'
+    expect(Solver.new.fizzbuzz(15)).to eql 'fizzbuzz'
   end
 end
