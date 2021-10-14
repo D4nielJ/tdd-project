@@ -19,7 +19,8 @@ describe Solver do
   it 'raises an exception if it isn\'t a reversable' do
     expect do
       Solver.new.reverse_string({ a: 'b', c: 'd' })
-    end.to raise_error(ArgumentError, 'the argument must be reversable')
-    expect { Solver.new.reverse_string(1) }.to raise_error(ArgumentError, 'the argument must be reversable')
+    end.to raise_error(ArgumentError, 'the argument must be a string')
+    expect { Solver.new.reverse_string(1) }.to raise_error(ArgumentError, 'the argument must be a string')
+    expect { Solver.new.reverse_string([1, 2]) }.to raise_error(ArgumentError, 'the argument must be a string')
   end
 end

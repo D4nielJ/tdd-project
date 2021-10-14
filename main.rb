@@ -12,7 +12,8 @@ class Solver
   end
 
   def reverse_string(string)
-    raise ArgumentError, 'the argument must be reversable' unless string.respond_to?(:reverse)
+    raise ArgumentError, 'the argument must be a string' unless string.is_a?(String)
+
     string.reverse
   end
 end
