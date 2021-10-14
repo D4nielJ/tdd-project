@@ -23,4 +23,10 @@ describe Solver do
     expect { Solver.new.reverse_string(1) }.to raise_error(ArgumentError, 'the argument must be a string')
     expect { Solver.new.reverse_string([1, 2]) }.to raise_error(ArgumentError, 'the argument must be a string')
   end
+
+  it 'return a string fizzbuzz when n is divisible by 3 and 5 ' do
+    expect do
+      Solver.new.fizzbuzz(15)
+    end.to eql 'fizzbuzz'
+  end
 end
