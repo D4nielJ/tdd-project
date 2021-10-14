@@ -27,4 +27,16 @@ describe Solver do
   it 'return a string fizzbuzz when n is divisible by 3 and 5 ' do
     expect(Solver.new.fizzbuzz(15)).to eql 'fizzbuzz'
   end
+
+  it 'return fizz when is divisible by 3' do
+    expect(Solver.new.fizzbuzz(9)).to eql 'fizz'
+  end
+
+  it 'return buzz when is divisible by 5' do
+    expect(Solver.new.fizzbuzz(10)).to eql 'buzz'
+  end
+
+  it 'return the numbre converted to string whe is not divisible by 3 or 5' do
+    expect(Solver.new.fizzbuzz(7)).to eql '7'
+  end
 end
