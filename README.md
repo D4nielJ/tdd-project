@@ -10,46 +10,37 @@ This project implements a class with some methods, but they're test-driven devel
 - Rubocop
 - Rspec
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby installed locally to run and test the program.
+
 ### Setup
 
-### Install
-
-### Usage
+- Clone this repository.
+- CD to the folder.
+- Run `Ruby main.rb` to initiate.
 
 ### Run tests
 
-### Deployment
-
-
+- You can use `rspec spec` to run available tests.
 
 ## Authors
 
-👤 **Author1**
+👤 **Daniel Jaramillo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@d4nielj](https://github.com/d4nielj)
+- LinkedIn: [Daniel Jaramillo](https://linkedin.com/in/d4nielj)
 
-👤 **Author2**
+👤 **Ricardo R.**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Richie9000](https://github.com/Richie9000)
 
 ## 🤝 Contributing
 
@@ -60,12 +51,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
